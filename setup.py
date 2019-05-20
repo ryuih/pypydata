@@ -21,7 +21,7 @@ setup(
     license='MIT',
     install_requires=['beautifulsoup4', 'lxml'],
     keywords='pypydata',
-    packages='pypydata',
+    packages=find_packages(exclude=('tests')),
     entry_points={
         "console_scripts": [
             "pypydata=pypydata.__init__:main",
