@@ -15,6 +15,7 @@ setup(
     version='1.0.0',
     description='PypyData Location List',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url='https://github.com/ryuih/pypydata',
     author='iryu',
     author_email='inhwanryu@gmail.com',
