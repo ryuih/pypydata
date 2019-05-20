@@ -16,12 +16,12 @@ setup(
     description='PypyData Location List',
     long_description=long_description,
     url='https://github.com/ryuih/pypydata',
-    author='ryuih',
+    author='iryu',
     author_email='inhwanryu@gmail.com',
     license='MIT',
     install_requires=['beautifulsoup4', 'lxml'],
     keywords='pypydata',
-    packages=find_packages(exclude=('tests')),
+    packages='pypydata',
     entry_points={
         "console_scripts": [
             "pypydata=pypydata.__init__:main",
